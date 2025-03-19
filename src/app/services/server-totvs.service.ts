@@ -40,8 +40,8 @@ export class ServerTotvsService {
       { property: 'cNatOper',        label: "Nat.Oper."},
       { property: 'ctpNatOper',      label: "TP", type: 'subtitle',
         subtitles: [
-          { value: "KIT",       color: 'color-08', label: "", content: "KT"},
-          { value: "EXTRA-KIT", color: 'color-09', label: "", content: "ET"},
+          { value: "KIT",       color: 'color-02', label: "", content: "KT"},
+          { value: "EXTRA-KIT", color: 'color-07', label: "", content: "ET"},
         ]
       },
       { property: 'dDtRetorno',      label: "Dt.Ret."},
