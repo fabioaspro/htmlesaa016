@@ -119,6 +119,7 @@
                                  [p-height]="alturaGrid"
                                  [p-actions]="opcoesGrid">
       <ng-template p-table-cell-template let-column="column" let-row="row">
+        
         @if(column.property === 'opcao'){
             <div class="menuGrid">
             <div><button class="btn"  (click)="onAlterarGrid(row)"><p><i class="bi bi-eraser-fill"></i></p></button></div>
